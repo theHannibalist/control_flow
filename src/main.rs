@@ -40,4 +40,17 @@ fn main() {
         while_number -= 1;
     }
     println!("STOP!");
+
+    // for :
+    let a = [10 , 20 , 30 , 40 , 50];
+
+    for element in a {
+        println! ("the index is {element}");
+    }
+    println! ("\n");
+    for i in (1..4).rev() { // rev() will reverse the numbers
+        println!("{i} !");
+    }
+
+    println! ("STOP!");
 }
