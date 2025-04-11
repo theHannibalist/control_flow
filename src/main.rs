@@ -30,4 +30,14 @@ fn main() {
             }
         };
     println!("the result is {result}");
+
+    // while :
+
+    let mut while_number = 100;
+
+    while while_number != 0 {
+        println! ("{while_number} !");
+        while_number -= 1;
+    }
+    println!("STOP!");
 }
