@@ -1,4 +1,6 @@
 fn main() {
+
+    // if and else :
     let number = 6;
 
     if number % 4 == 0 {
@@ -14,4 +16,18 @@ fn main() {
     let condition = true;
     let numbr = if condition { 5 } else { 6 };
     println!("the number is {numbr}");
+
+    // let's try loops here :
+
+
+        let mut counter = 0;
+
+        let result = loop {
+            counter += 1;
+
+            if counter == 20 {
+                break counter * 2;
+            }
+        };
+    println!("the result is {result}");
 }
